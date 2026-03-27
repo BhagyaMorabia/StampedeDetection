@@ -1,0 +1,750 @@
+{
+  "test_summary": {
+    "test_date": "2025-11-25T14:48:34.034900",
+    "test_duration": 3.2418289184570312,
+    "total_tests": 40,
+    "successful_tests": 15,
+    "failed_tests": 25,
+    "overall_success_rate": 0.375,
+    "average_accuracy": 0.4409583333333334,
+    "average_processing_time": 0.03646392226219177
+  },
+  "component_performance": {
+    "adaptive_threshold_optimizer": {
+      "success_rate": 1.0,
+      "average_accuracy": 1.0,
+      "average_processing_time": 5.865097045898438e-06,
+      "total_tests": 5
+    },
+    "anomaly_detection_system": {
+      "success_rate": 0.0,
+      "average_accuracy": 0.0,
+      "average_processing_time": 7.677078247070313e-06,
+      "total_tests": 5
+    },
+    "behavior_analysis_system": {
+      "success_rate": 0.6,
+      "average_accuracy": 0.8,
+      "average_processing_time": 1.068115234375e-05,
+      "total_tests": 5
+    },
+    "density_forecasting_system": {
+      "success_rate": 0.0,
+      "average_accuracy": 0.3,
+      "average_processing_time": 1.7452239990234376e-05,
+      "total_tests": 5
+    },
+    "person_reidentification_system": {
+      "success_rate": 0.0,
+      "average_accuracy": 0.0,
+      "average_processing_time": 1.4781951904296875e-06,
+      "total_tests": 5
+    },
+    "smart_alert_threshold_learner": {
+      "success_rate": 0.0,
+      "average_accuracy": 0.0,
+      "average_processing_time": 2.09808349609375e-06,
+      "total_tests": 5
+    },
+    "environmental_integration_system": {
+      "success_rate": 1.0,
+      "average_accuracy": 0.775,
+      "average_processing_time": 0.0002601146697998047,
+      "total_tests": 5
+    },
+    "integrated_ml_system": {
+      "success_rate": 0.4,
+      "average_accuracy": 0.6526666666666667,
+      "average_processing_time": 0.2914060115814209,
+      "total_tests": 5
+    }
+  },
+  "scenario_performance": {
+    "crowd": {
+      "success_rate": 0.3125,
+      "average_accuracy": 0.4420833333333334,
+      "average_processing_time": 0.049351200461387634,
+      "total_tests": 16
+    },
+    "situation": {
+      "success_rate": 0.375,
+      "average_accuracy": 0.43770833333333337,
+      "average_processing_time": 0.03925254940986633,
+      "total_tests": 8
+    },
+    "risk": {
+      "success_rate": 0.5,
+      "average_accuracy": 0.43583333333333335,
+      "average_processing_time": 0.03980490565299988,
+      "total_tests": 8
+    },
+    "cases": {
+      "success_rate": 0.375,
+      "average_accuracy": 0.44708333333333333,
+      "average_processing_time": 0.004559755325317383,
+      "total_tests": 8
+    }
+  },
+  "detailed_results": [
+    {
+      "test_name": "adaptive_threshold_normal_crowd",
+      "component": "adaptive_threshold_optimizer",
+      "success": true,
+      "accuracy": 1.0,
+      "processing_time": 1.621246337890625e-05,
+      "error_message": null,
+      "metrics": {
+        "optimal_threshold": 0.15,
+        "is_trained": false,
+        "model_accuracy": 0.0
+      },
+      "timestamp": 1764062310.7932017
+    },
+    {
+      "test_name": "adaptive_threshold_high_density_crowd",
+      "component": "adaptive_threshold_optimizer",
+      "success": true,
+      "accuracy": 1.0,
+      "processing_time": 6.198883056640625e-06,
+      "error_message": null,
+      "metrics": {
+        "optimal_threshold": 0.15,
+        "is_trained": false,
+        "model_accuracy": 0.0
+      },
+      "timestamp": 1764062310.7932184
+    },
+    {
+      "test_name": "adaptive_threshold_panic_situation",
+      "component": "adaptive_threshold_optimizer",
+      "success": true,
+      "accuracy": 1.0,
+      "processing_time": 2.86102294921875e-06,
+      "error_message": null,
+      "metrics": {
+        "optimal_threshold": 0.15,
+        "is_trained": false,
+        "model_accuracy": 0.0
+      },
+      "timestamp": 1764062310.79323
+    },
+    {
+      "test_name": "adaptive_threshold_stampede_risk",
+      "component": "adaptive_threshold_optimizer",
+      "success": true,
+      "accuracy": 1.0,
+      "processing_time": 1.9073486328125e-06,
+      "error_message": null,
+      "metrics": {
+        "optimal_threshold": 0.15,
+        "is_trained": false,
+        "model_accuracy": 0.0
+      },
+      "timestamp": 1764062310.7932336
+    },
+    {
+      "test_name": "adaptive_threshold_edge_cases",
+      "component": "adaptive_threshold_optimizer",
+      "success": true,
+      "accuracy": 1.0,
+      "processing_time": 2.1457672119140625e-06,
+      "error_message": null,
+      "metrics": {
+        "optimal_threshold": 0.15,
+        "is_trained": false,
+        "model_accuracy": 0.0
+      },
+      "timestamp": 1764062310.7932365
+    },
+    {
+      "test_name": "anomaly_detection_normal_crowd",
+      "component": "anomaly_detection_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 2.09808349609375e-05,
+      "error_message": "Expected normal, got insufficient_data",
+      "metrics": {
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "confidence": 0.0,
+        "severity_level": "low"
+      },
+      "timestamp": 1764062310.7942526
+    },
+    {
+      "test_name": "anomaly_detection_high_density_crowd",
+      "component": "anomaly_detection_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 7.867813110351562e-06,
+      "error_message": "Expected high_density, got insufficient_data",
+      "metrics": {
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "confidence": 0.0,
+        "severity_level": "low"
+      },
+      "timestamp": 1764062310.7942662
+    },
+    {
+      "test_name": "anomaly_detection_panic_situation",
+      "component": "anomaly_detection_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 3.814697265625e-06,
+      "error_message": "Expected panic_movement, got insufficient_data",
+      "metrics": {
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "confidence": 0.0,
+        "severity_level": "low"
+      },
+      "timestamp": 1764062310.7942727
+    },
+    {
+      "test_name": "anomaly_detection_stampede_risk",
+      "component": "anomaly_detection_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 3.0994415283203125e-06,
+      "error_message": "Expected stampede_risk, got insufficient_data",
+      "metrics": {
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "confidence": 0.0,
+        "severity_level": "low"
+      },
+      "timestamp": 1764062310.7942774
+    },
+    {
+      "test_name": "anomaly_detection_edge_cases",
+      "component": "anomaly_detection_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 2.6226043701171875e-06,
+      "error_message": "Expected normal, got insufficient_data",
+      "metrics": {
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "confidence": 0.0,
+        "severity_level": "low"
+      },
+      "timestamp": 1764062310.7942822
+    },
+    {
+      "test_name": "behavior_analysis_normal_crowd",
+      "component": "behavior_analysis_system",
+      "success": true,
+      "accuracy": 0.8,
+      "processing_time": 3.0040740966796875e-05,
+      "error_message": null,
+      "metrics": {
+        "behavior_type": "normal_walking",
+        "panic_score": 0.12,
+        "confidence": 0.8,
+        "risk_level": "low"
+      },
+      "timestamp": 1764062310.7951262
+    },
+    {
+      "test_name": "behavior_analysis_high_density_crowd",
+      "component": "behavior_analysis_system",
+      "success": false,
+      "accuracy": 0.8,
+      "processing_time": 1.049041748046875e-05,
+      "error_message": "Expected crowded_walking, got normal_walking",
+      "metrics": {
+        "behavior_type": "normal_walking",
+        "panic_score": 0.16000000000000003,
+        "confidence": 0.8,
+        "risk_level": "low"
+      },
+      "timestamp": 1764062310.7951436
+    },
+    {
+      "test_name": "behavior_analysis_panic_situation",
+      "component": "behavior_analysis_system",
+      "success": true,
+      "accuracy": 0.8,
+      "processing_time": 4.76837158203125e-06,
+      "error_message": null,
+      "metrics": {
+        "behavior_type": "panic_running",
+        "panic_score": 1.0,
+        "confidence": 0.8,
+        "risk_level": "critical"
+      },
+      "timestamp": 1764062310.795151
+    },
+    {
+      "test_name": "behavior_analysis_stampede_risk",
+      "component": "behavior_analysis_system",
+      "success": true,
+      "accuracy": 0.8,
+      "processing_time": 4.291534423828125e-06,
+      "error_message": null,
+      "metrics": {
+        "behavior_type": "panic_running",
+        "panic_score": 1.0,
+        "confidence": 0.8,
+        "risk_level": "critical"
+      },
+      "timestamp": 1764062310.795157
+    },
+    {
+      "test_name": "behavior_analysis_edge_cases",
+      "component": "behavior_analysis_system",
+      "success": false,
+      "accuracy": 0.8,
+      "processing_time": 3.814697265625e-06,
+      "error_message": "Expected stationary, got normal_walking",
+      "metrics": {
+        "behavior_type": "normal_walking",
+        "panic_score": 0.0,
+        "confidence": 0.8,
+        "risk_level": "low"
+      },
+      "timestamp": 1764062310.795163
+    },
+    {
+      "test_name": "density_forecasting_normal_crowd",
+      "component": "density_forecasting_system",
+      "success": false,
+      "accuracy": 0.3,
+      "processing_time": 3.6716461181640625e-05,
+      "error_message": "Low confidence forecasts",
+      "metrics": {
+        "forecast_5min": 2.663894054669462,
+        "forecast_10min": 3.227788109338923,
+        "forecast_15min": 3.7916821640083844,
+        "confidence_5min": 0.3,
+        "confidence_10min": 0.3,
+        "confidence_15min": 0.3,
+        "is_trained": false
+      },
+      "timestamp": 1764062312.1539536
+    },
+    {
+      "test_name": "density_forecasting_high_density_crowd",
+      "component": "density_forecasting_system",
+      "success": false,
+      "accuracy": 0.3,
+      "processing_time": 1.4781951904296875e-05,
+      "error_message": "Low confidence forecasts",
+      "metrics": {
+        "forecast_5min": 9.56268995525799,
+        "forecast_10min": 12.32537991051598,
+        "forecast_15min": 15.08806986577397,
+        "confidence_5min": 0.3,
+        "confidence_10min": 0.3,
+        "confidence_15min": 0.3,
+        "is_trained": false
+      },
+      "timestamp": 1764062312.1539824
+    },
+    {
+      "test_name": "density_forecasting_panic_situation",
+      "component": "density_forecasting_system",
+      "success": false,
+      "accuracy": 0.3,
+      "processing_time": 1.239776611328125e-05,
+      "error_message": "Low confidence forecasts",
+      "metrics": {
+        "forecast_5min": 7.241733447610867,
+        "forecast_10min": 9.283466895221732,
+        "forecast_15min": 11.325200342832598,
+        "confidence_5min": 0.3,
+        "confidence_10min": 0.3,
+        "confidence_15min": 0.3,
+        "is_trained": false
+      },
+      "timestamp": 1764062312.1540055
+    },
+    {
+      "test_name": "density_forecasting_stampede_risk",
+      "component": "density_forecasting_system",
+      "success": false,
+      "accuracy": 0.3,
+      "processing_time": 1.0967254638671875e-05,
+      "error_message": "Low confidence forecasts",
+      "metrics": {
+        "forecast_5min": 11.46018438344205,
+        "forecast_10min": 14.4203687668841,
+        "forecast_15min": 17.38055315032615,
+        "confidence_5min": 0.3,
+        "confidence_10min": 0.3,
+        "confidence_15min": 0.3,
+        "is_trained": false
+      },
+      "timestamp": 1764062312.1540267
+    },
+    {
+      "test_name": "density_forecasting_edge_cases",
+      "component": "density_forecasting_system",
+      "success": false,
+      "accuracy": 0.3,
+      "processing_time": 1.239776611328125e-05,
+      "error_message": "Low confidence forecasts",
+      "metrics": {
+        "forecast_5min": 0,
+        "forecast_10min": 0,
+        "forecast_15min": 0,
+        "confidence_5min": 0.3,
+        "confidence_10min": 0.3,
+        "confidence_15min": 0.3,
+        "is_trained": false
+      },
+      "timestamp": 1764062312.1540484
+    },
+    {
+      "test_name": "person_reid_normal_crowd",
+      "component": "person_reidentification_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 4.76837158203125e-06,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.154917
+    },
+    {
+      "test_name": "person_reid_high_density_crowd",
+      "component": "person_reidentification_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 1.430511474609375e-06,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.154927
+    },
+    {
+      "test_name": "person_reid_panic_situation",
+      "component": "person_reidentification_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 4.76837158203125e-07,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.1549299
+    },
+    {
+      "test_name": "person_reid_stampede_risk",
+      "component": "person_reidentification_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 2.384185791015625e-07,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.154932
+    },
+    {
+      "test_name": "person_reid_edge_cases",
+      "component": "person_reidentification_system",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 4.76837158203125e-07,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.1549337
+    },
+    {
+      "test_name": "smart_alerts_normal_crowd",
+      "component": "smart_alert_threshold_learner",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 6.9141387939453125e-06,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.5707304
+    },
+    {
+      "test_name": "smart_alerts_high_density_crowd",
+      "component": "smart_alert_threshold_learner",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 1.9073486328125e-06,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.5707433
+    },
+    {
+      "test_name": "smart_alerts_panic_situation",
+      "component": "smart_alert_threshold_learner",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 9.5367431640625e-07,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.5707471
+    },
+    {
+      "test_name": "smart_alerts_stampede_risk",
+      "component": "smart_alert_threshold_learner",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 2.384185791015625e-07,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.5707493
+    },
+    {
+      "test_name": "smart_alerts_edge_cases",
+      "component": "smart_alert_threshold_learner",
+      "success": false,
+      "accuracy": 0.0,
+      "processing_time": 4.76837158203125e-07,
+      "error_message": "'camera_id'",
+      "metrics": {},
+      "timestamp": 1764062312.5707512
+    },
+    {
+      "test_name": "environmental_integration_normal_crowd",
+      "component": "environmental_integration_system",
+      "success": true,
+      "accuracy": 0.775,
+      "processing_time": 0.00043892860412597656,
+      "error_message": null,
+      "metrics": {
+        "density_modifier": 0.9457416090031758,
+        "movement_modifier": 0.986891468811147,
+        "panic_threshold_modifier": 0.8536700201833038,
+        "risk_score_modifier": 1.0436669673159336,
+        "evacuation_time_modifier": 1.0744585020477588,
+        "confidence": 0.775,
+        "contributing_factors": [
+          "poor_lighting",
+          "high_social_media_influence",
+          "extreme_temperature",
+          "high_security",
+          "alcohol_served",
+          "many_children",
+          "many_elderly"
+        ],
+        "recommendations_count": 2
+      },
+      "timestamp": 1764062312.5720425
+    },
+    {
+      "test_name": "environmental_integration_high_density_crowd",
+      "component": "environmental_integration_system",
+      "success": true,
+      "accuracy": 0.775,
+      "processing_time": 0.0002586841583251953,
+      "error_message": null,
+      "metrics": {
+        "density_modifier": 1.1093328057258516,
+        "movement_modifier": 1.0344014131481807,
+        "panic_threshold_modifier": 0.8974380650802756,
+        "risk_score_modifier": 1.0589081836655605,
+        "evacuation_time_modifier": 1.0401392929048145,
+        "confidence": 0.775,
+        "contributing_factors": [
+          "special_occasion",
+          "festival_event",
+          "high_obstacle_density",
+          "high_cultural_diversity",
+          "high_unemployment"
+        ],
+        "recommendations_count": 2
+      },
+      "timestamp": 1764062312.5723062
+    },
+    {
+      "test_name": "environmental_integration_panic_situation",
+      "component": "environmental_integration_system",
+      "success": true,
+      "accuracy": 0.775,
+      "processing_time": 0.00020956993103027344,
+      "error_message": null,
+      "metrics": {
+        "density_modifier": 1.0696103757250688,
+        "movement_modifier": 1.079853588027217,
+        "panic_threshold_modifier": 0.9213907732634233,
+        "risk_score_modifier": 1.0538739520617835,
+        "evacuation_time_modifier": 1.0,
+        "confidence": 0.775,
+        "contributing_factors": [
+          "high_social_media_influence",
+          "festival_event"
+        ],
+        "recommendations_count": 2
+      },
+      "timestamp": 1764062312.5725183
+    },
+    {
+      "test_name": "environmental_integration_stampede_risk",
+      "component": "environmental_integration_system",
+      "success": true,
+      "accuracy": 0.775,
+      "processing_time": 0.00019311904907226562,
+      "error_message": null,
+      "metrics": {
+        "density_modifier": 1.0538739520617835,
+        "movement_modifier": 1.0402458609986374,
+        "panic_threshold_modifier": 0.900269156244368,
+        "risk_score_modifier": 1.042091571876054,
+        "evacuation_time_modifier": 1.0401392929048145,
+        "confidence": 0.775,
+        "contributing_factors": [
+          "sports_event",
+          "high_economic_stress",
+          "alcohol_served",
+          "high_obstacle_density",
+          "high_cultural_diversity"
+        ],
+        "recommendations_count": 0
+      },
+      "timestamp": 1764062312.572714
+    },
+    {
+      "test_name": "environmental_integration_edge_cases",
+      "component": "environmental_integration_system",
+      "success": true,
+      "accuracy": 0.775,
+      "processing_time": 0.0002002716064453125,
+      "error_message": null,
+      "metrics": {
+        "density_modifier": 1.0371372893366482,
+        "movement_modifier": 1.0930119739438586,
+        "panic_threshold_modifier": 0.9168852814894793,
+        "risk_score_modifier": 1.0756537569325701,
+        "evacuation_time_modifier": 1.0,
+        "confidence": 0.775,
+        "contributing_factors": [
+          "alcohol_served",
+          "concert_event",
+          "low_security"
+        ],
+        "recommendations_count": 0
+      },
+      "timestamp": 1764062312.5729163
+    },
+    {
+      "test_name": "integrated_ml_normal_crowd",
+      "component": "integrated_ml_system",
+      "success": false,
+      "accuracy": 0.6816666666666668,
+      "processing_time": 0.47936391830444336,
+      "error_message": "Expected low, got minimal",
+      "metrics": {
+        "overall_risk_score": 0.0719563375374542,
+        "risk_level": "minimal",
+        "ml_confidence": 0.3166666666666667,
+        "system_confidence": 0.6816666666666668,
+        "adaptive_threshold": 0.15,
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "behavior_classification": "normal_walking",
+        "panic_score": 0.13,
+        "smart_alert_level": "low",
+        "recommendations_count": 3
+      },
+      "timestamp": 1764062313.0563648
+    },
+    {
+      "test_name": "integrated_ml_high_density_crowd",
+      "component": "integrated_ml_system",
+      "success": false,
+      "accuracy": 0.6416666666666667,
+      "processing_time": 0.3093993663787842,
+      "error_message": "Expected medium, got high",
+      "metrics": {
+        "overall_risk_score": 0.7420960871633265,
+        "risk_level": "high",
+        "ml_confidence": 0.3166666666666667,
+        "system_confidence": 0.6416666666666667,
+        "adaptive_threshold": 0.15,
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "behavior_classification": "normal_walking",
+        "panic_score": 0.19,
+        "smart_alert_level": "medium",
+        "recommendations_count": 6
+      },
+      "timestamp": 1764062313.365771
+    },
+    {
+      "test_name": "integrated_ml_panic_situation",
+      "component": "integrated_ml_system",
+      "success": false,
+      "accuracy": 0.6266666666666666,
+      "processing_time": 0.3137855529785156,
+      "error_message": "Expected high, got medium",
+      "metrics": {
+        "overall_risk_score": 0.5626109928589259,
+        "risk_level": "medium",
+        "ml_confidence": 0.3166666666666667,
+        "system_confidence": 0.6266666666666666,
+        "adaptive_threshold": 0.15,
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "behavior_classification": "panic_running",
+        "panic_score": 1.0,
+        "smart_alert_level": "medium",
+        "recommendations_count": 8
+      },
+      "timestamp": 1764062313.679562
+    },
+    {
+      "test_name": "integrated_ml_stampede_risk",
+      "component": "integrated_ml_system",
+      "success": true,
+      "accuracy": 0.6116666666666667,
+      "processing_time": 0.3182253837585449,
+      "error_message": null,
+      "metrics": {
+        "overall_risk_score": 0.9797848431444279,
+        "risk_level": "critical",
+        "ml_confidence": 0.3166666666666667,
+        "system_confidence": 0.6116666666666667,
+        "adaptive_threshold": 0.15,
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "behavior_classification": "panic_running",
+        "panic_score": 1.0,
+        "smart_alert_level": "critical",
+        "recommendations_count": 7
+      },
+      "timestamp": 1764062313.9977915
+    },
+    {
+      "test_name": "integrated_ml_edge_cases",
+      "component": "integrated_ml_system",
+      "success": true,
+      "accuracy": 0.7016666666666665,
+      "processing_time": 0.036255836486816406,
+      "error_message": null,
+      "metrics": {
+        "overall_risk_score": 0.033064745114473486,
+        "risk_level": "minimal",
+        "ml_confidence": 0.3166666666666667,
+        "system_confidence": 0.7016666666666665,
+        "adaptive_threshold": 0.15,
+        "anomaly_score": 0.0,
+        "anomaly_type": "insufficient_data",
+        "behavior_classification": "normal_walking",
+        "panic_score": 0.05,
+        "smart_alert_level": "low",
+        "recommendations_count": 2
+      },
+      "timestamp": 1764062314.0340524
+    }
+  ],
+  "recommendations": [
+    "Overall success rate is below 80% - review system configuration",
+    "Average accuracy is below 70% - consider retraining models",
+    "anomaly_detection_system has low success rate - investigate issues",
+    "anomaly_detection_system has low accuracy - retrain models",
+    "behavior_analysis_system has low success rate - investigate issues",
+    "density_forecasting_system has low success rate - investigate issues",
+    "density_forecasting_system has low accuracy - retrain models",
+    "person_reidentification_system has low success rate - investigate issues",
+    "person_reidentification_system has low accuracy - retrain models",
+    "smart_alert_threshold_learner has low success rate - investigate issues",
+    "smart_alert_threshold_learner has low accuracy - retrain models",
+    "integrated_ml_system has low success rate - investigate issues",
+    "crowd scenario has low success rate - review thresholds",
+    "situation scenario has low success rate - review thresholds",
+    "risk scenario has low success rate - review thresholds",
+    "cases scenario has low success rate - review thresholds"
+  ]
+}

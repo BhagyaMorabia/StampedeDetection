@@ -1,0 +1,6 @@
+Date,Location,Country,Event_Type,Venue,Fatalities,Injured,Cause,Weather,Time_of_Day,Crowd_Size,Date_year,Date_month,Date_day,Date_weekday,Event_Type_encoded,Venue_encoded,Cause_encoded,Weather_encoded,Time_of_Day_encoded,Country_encoded,Risk_Score,Severity,is_weekend,is_holiday_season,is_summer,high_risk,medium_risk,low_risk,crowd_density_low,crowd_density_medium,crowd_density_high,venue_risk_score,event_risk_score,weather_risk_score,time_risk_score,composite_risk_score
+2021-01-01,New York,USA,Concert,Stadium,5,25,Panic,Clear,Evening,5000,2021,1,1,4,0,2,2,0,1,4,0.4,Medium,False,True,False,0,1,0,0,1,0,0.8,0.7,0.4,0.8,0.675
+2020-12-15,London,UK,Religious,Temple,12,45,Fire,Rain,Morning,10000,2020,12,15,1,2,3,1,3,2,3,0.81,High,False,True,False,1,0,0,0,0,1,0.6,0.8,0.7,0.4,0.6249999999999999
+2020-11-20,Tokyo,Japan,Sports,Arena,3,12,Structural,Clear,Afternoon,3000,2020,11,20,4,3,0,3,0,0,2,0.21,Low,False,True,False,0,0,1,0,1,0,0.7,0.6,0.4,0.6,0.575
+2020-10-10,Paris,France,Festival,Square,8,30,Crowd,Cloudy,Evening,8000,2020,10,10,5,1,1,0,1,1,0,0.54,Medium,True,False,False,0,1,0,0,1,0,0.5,0.5,0.3,0.8,0.525
+2020-09-05,Mumbai,India,Religious,Temple,15,60,Panic,Hot,Morning,15000,2020,9,5,5,2,3,2,2,2,1,1.05,,True,False,False,1,0,0,0,0,1,0.6,0.8,0.8,0.4,0.65

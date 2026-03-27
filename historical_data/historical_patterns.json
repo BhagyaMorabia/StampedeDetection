@@ -1,0 +1,58 @@
+{
+  "yearly_trends": {
+    "2020": 0.6525000000000001,
+    "2021": 0.4
+  },
+  "monthly_patterns": {
+    "1": 0.4,
+    "9": 1.05,
+    "10": 0.54,
+    "11": 0.21,
+    "12": 0.81
+  },
+  "weekday_patterns": {
+    "1": 0.81,
+    "4": 0.305,
+    "5": 0.795
+  },
+  "venue_risk": {
+    "Arena": 0.21,
+    "Square": 0.54,
+    "Stadium": 0.4,
+    "Temple": 0.93
+  },
+  "event_type_risk": {
+    "Concert": 0.4,
+    "Festival": 0.54,
+    "Religious": 0.93,
+    "Sports": 0.21
+  },
+  "weather_risk": {
+    "Clear": 0.305,
+    "Cloudy": 0.54,
+    "Hot": 1.05,
+    "Rain": 0.81
+  },
+  "time_risk": {
+    "Afternoon": 0.21,
+    "Evening": 0.47000000000000003,
+    "Morning": 0.93
+  },
+  "crowd_size_ranges": {
+    "small": NaN,
+    "medium": 0.3833333333333333,
+    "large": 0.93
+  },
+  "cause_frequency": {
+    "Panic": 2,
+    "Fire": 1,
+    "Structural": 1,
+    "Crowd": 1
+  },
+  "cause_risk": {
+    "Crowd": 0.54,
+    "Fire": 0.81,
+    "Panic": 0.7250000000000001,
+    "Structural": 0.21
+  }
+}
